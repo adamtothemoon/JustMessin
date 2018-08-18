@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+button {
+	background-color: #3399ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+button:hover {
+	background-color: #63b1ff;
+}
+
+.wheel {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+@keyframes Wheel-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(var(1 * 45)deg); }
+}
